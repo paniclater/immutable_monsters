@@ -5,5 +5,8 @@
   "main": "src/index.js",
   "author": "Ryan Moore",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "webpack": "^3.5.6"
+  }
 }
