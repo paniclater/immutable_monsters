@@ -1,0 +1,9 @@
+{
+  "name": "immutable_monsters",
+  "version": "1.0.0",
+  "description": "a project to be used for 2017 UtahJS Presentation on Immutable Data",
+  "main": "src/index.js",
+  "author": "Ryan Moore",
+  "license": "MIT",
+  "private": false
+}
