@@ -1,6 +1,12 @@
 import './reset.css';
 import './style.css';
 import LongLegs from './longlegs.svg';
-import { creatureCard } from './CreatureCard.js';
+import { monsterCard } from './monsterCard.js';
 
-document.body.appendChild(creatureCard(LongLegs));
+const container = document.createElement('div');
+container.classList.add('container');
+
+for (let i = 0; i < 10; i++) {
+  container.appendChild(monsterCard(LongLegs));
+}
+document.body.appendChild(container);

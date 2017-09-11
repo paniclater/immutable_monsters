@@ -1,16 +1,26 @@
 body {
   background-color: aliceblue;
 }
-.hello {
-  color: pink;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
 }
+
 .monster {
-  height: 200px;
+  height: 100%;
 }
 .pinkFill{
   fill: pink;
 }
 .monsterCard {
+  display: flex;
+  align-self: auto;
+  box-sizing: border-box;
   height: 200px;
   width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: crimson;
 }
