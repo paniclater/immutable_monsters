@@ -1,0 +1,16 @@
+body {
+  background-color: aliceblue;
+}
+.hello {
+  color: pink;
+}
+.monster {
+  height: 200px;
+}
+.pinkFill{
+  fill: pink;
+}
+.monsterCard {
+  height: 200px;
+  width: 100%;
+}
