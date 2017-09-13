@@ -14,7 +14,7 @@ export function monsterCard(monsterSvg) {
   stats.appendChild(title);
 
   const type = document.createElement('h2');
-  type.innerHTML = 'Type: Spook'
+  type.innerHTML = 'Type: Spooker'
   stats.appendChild(type);
 
 
