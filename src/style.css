@@ -30,7 +30,7 @@ h2 {
 .pinkFill{
   fill: pink;
 }
-.monsterCard {
+.monster-card {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-evenly;
@@ -41,7 +41,7 @@ h2 {
   margin: 0 auto 10px auto;
   background: crimson;
 }
-.monsterSvg {
+.monster-svg {
   box-sizing: border-box;
   height: 100%;
   width: 180px;
@@ -63,6 +63,9 @@ h2 {
   display: flex;
   margin-left: 10px;
 }
+.level-block:last-child {
+  color: crimson;
+}
 .level-block {
   width: 50px;
   height: 50px;
@@ -70,4 +73,5 @@ h2 {
   background-color: pink;
   align-items: center;
   justify-content: center;
+  font-weight: 900;
 }
