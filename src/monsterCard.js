@@ -1,16 +1,16 @@
-export function monsterCard(monsterSvg) {
+export function monsterCard({ svgElement, name, level}) {
   const card = document.createElement('div');
   card.classList.add('monster-card');
 
   const svg = document.createElement('div');
-  svg.innerHTML = monsterSvg;
+  svg.innerHTML = svgElement;
   svg.classList.add('monster-svg');
 
   const stats= document.createElement('div');
   stats.classList.add('stats');
 
   const title = document.createElement('h1');
-  title.innerHTML = 'Spooky Toes';
+  title.innerHTML = name;
   stats.appendChild(title);
 
   const type = document.createElement('h2');
@@ -29,7 +29,7 @@ export function monsterCard(monsterSvg) {
 
   const levelBlockContainer = document.createElement('div');
   levelBlockContainer.classList.add('level-block-container');
-  for (var i = 0; i < 3; i++) {
+  for (var i = 0; i < level; i++) {
     var l = document.createElement('div');
     l.innerHTML = i + 1;
     l.classList.add('level-block');
