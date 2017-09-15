@@ -1,8 +1,8 @@
 import monsterCard from './monsterCard';
 
 export default function render (
-  titleText = 'Catching Cute Monsters',
-  subtitleText = 'With Immutable Patterns',
+  titleText = '',
+  subtitleText = '',
   monsters = []) {
   const header = document.createElement('header');
   header.classList.add('header');
