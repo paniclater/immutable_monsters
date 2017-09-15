@@ -1,5 +1,5 @@
-import './reset.css';
 //styles
+import './reset.css';
 import './style.css';
 //svgs
 import legs from './svg/legs.svg';

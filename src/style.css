@@ -1,6 +1,6 @@
 body {
   background-color: aliceblue;
-  font-size: 16px;
+  font-size: 8px;
   font-family: sans-serif;
   color: ghostwhite;
 }
@@ -45,8 +45,8 @@ h2 {
   flex-direction: row-reverse;
   justify-content: space-evenly;
   box-sizing: border-box;
-  height: 200px;
-  width: 600px;
+  height: 100px;
+  width: 300px;
   padding: 10px;
   margin: 0 auto 40px auto;
   background: crimson;
@@ -55,7 +55,7 @@ h2 {
 .monster-svg {
   box-sizing: border-box;
   height: 100%;
-  width: 180px;
+  width: 90px;
   margin: auto;
 }
 
@@ -76,13 +76,13 @@ h2 {
 }
 .level-block:last-child {
   color: crimson;
-  border-right: ghostwhite solid 2px;
+  border-right: ghostwhite solid 1px;
 }
 .level-block {
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   display: flex;
-  border: ghostwhite solid 2px;
+  border: ghostwhite solid 1px;
   border-right: none;
   background-color: pink;
   align-items: center;
