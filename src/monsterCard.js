@@ -1,4 +1,4 @@
-export function monsterCard({ svgElement, name, level}) {
+export default function monsterCard({ svgElement, name, level, type }) {
   const card = document.createElement('div');
   card.classList.add('monster-card');
 
@@ -13,9 +13,9 @@ export function monsterCard({ svgElement, name, level}) {
   title.innerHTML = name;
   stats.appendChild(title);
 
-  const type = document.createElement('h2');
-  type.innerHTML = 'Type: Spooker'
-  stats.appendChild(type);
+  const subtitle = document.createElement('h2');
+  subtitle.innerHTML = `Type: ${type}`
+  stats.appendChild(subtitle);
 
 
   const levels = document.createElement('div');

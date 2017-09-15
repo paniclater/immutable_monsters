@@ -6,10 +6,10 @@ import pointy from '../svg/pointy.svg';
 import eyes from '../svg/eyes.svg';
 
 const starterMonsters = [
-  new Monster('Legs', 1, legs),
-  new Monster('floaty', 1, floaty),
-  new Monster('pointy', 1, pointy),
-  new Monster('eyes', 1, eyes)
+  new Monster('tippety', 1, 'spooketer', legs),
+  new Monster('floaty', 1, 'spookemer', floaty),
+  new Monster('pointy', 1, 'spookeezer', pointy),
+  new Monster('gazey', 1, 'spookaser', eyes)
 ];
 
 export default class Collection {
