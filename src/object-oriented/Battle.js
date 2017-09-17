@@ -18,10 +18,10 @@ export default class Battle {
       sum2 += this.trainer2.collection.monsters[i];
     }
 
-    if (sum1 === sum2) return 'It Is A Tie, When There Are No Winners Everyone Loses.';
+    if (sum1 === sum2) return 'It Is A Tie, When There Are No Winners Everyone Is A Loser.';
 
-    if (sum1 > sum2) return `${this.trainer1.name} RULEZ ${this.trainer2.name} DRULES`;
-
-    return `${this.trainer2.name} IS THE HERO ${this.trainer1.name} IS THE ZERO`;
+    return (sum1 > sum2) ?
+      `${this.trainer1.name} RULEZ ${this.trainer2.name} DRULES` :
+      `${this.trainer2.name} IS THE HERO ${this.trainer1.name} IS THE ZERO`;
   }
 }
