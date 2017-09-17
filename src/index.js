@@ -9,10 +9,10 @@ import render from './render';
 const me = trainer('Ryan', 'Good');
 const drake = trainer('Drake', 'Evil');
 
-me.collection.forEach(levelUp(2));
+me.collection = me.collection.map(levelUp(2));
 drake.collection = drake.collection.map(m => Object.assign({}, m, { level: 5 }));
 
 render('Catching Cute Monsters', 'With Immutable Patterns')
 render('', 'RYAN\'S COLLECTION', me.collection)
 render('', 'DRAKE\'S COLLECTION', drake.collection)
-render(battle(me, drake));
+render(battle(drake, me));
