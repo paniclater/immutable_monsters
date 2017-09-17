@@ -11,5 +11,10 @@ const me = new Trainer('Ryan', 'Good');
 const drake = new Trainer('Drake', 'Evil');
 const battle = new Battle(me, drake);
 
-render('TIME TO BATTLE', 'RYAN\'S COLLECTION', me.collection.monsters)
-render('TIME TO BATTLE', 'DRAKE\'S COLLECTION', drake.collection.monsters)
+me.collection.monsters.forEach(monster => monster.levelUp())
+me.collection.monsters.forEach(monster => monster.levelUp())
+me.collection.monsters.forEach(monster => monster.levelUp())
+render('TIME TO BATTLE', 'RYAN V DRAKE');
+//render('TIME TO BATTLE', 'RYAN\'S COLLECTION', me.collection.monsters)
+//render('TIME TO BATTLE', 'DRAKE\'S COLLECTION', drake.collection.monsters)
+render('RESULTS', battle.winner());
