@@ -1,9 +1,9 @@
 export default class Monster {
-  constructor(name, level, type, svgElement) {
+  constructor(name, level, type, svg) {
     this.name = name;
     this.level = level;
     this.type = type;
-    this.svgElement = svgElement;
+    this.svg= svg;
   }
 
   levelUp () {
