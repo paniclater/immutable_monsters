@@ -2,8 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  //entry: './src/object-oriented/index.js',
-  entry: './src/index.js',
+  entry: './src/object-oriented/index.js',
+  // entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
@@ -31,7 +31,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Immutable Monsters'
+      title: 'Immutable Monsters',
+      favicon: './src/svg/legs.svg'
     })
   ]
 };
