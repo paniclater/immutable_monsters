@@ -16,7 +16,7 @@ Follow Up Content:
  - [Professor Frisby Introduces Composable Functional JavaScript by Brian Lonsdorf](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)
  - [Learn PureScript By Example](https://leanpub.com/purescript/read)
  - [Pux](https://github.com/alexmingoia/purescript-pux)
- - [Elm](https://elm-lang.org/docs)
+ - [Elm](http://elm-lang.org/docs)
  - [ClojureScript](https://github.com/clojure/clojurescript)
  - [Clojure for the Brave and True](https://www.braveclojure.com/)
  - [Utah PolyJS Meetup](https://www.meetup.com/poly-js/?_cookie-check=DoqcvSYWMtfTUrND)
