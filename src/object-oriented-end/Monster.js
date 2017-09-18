@@ -3,10 +3,10 @@ export default class Monster {
     this.name = name;
     this.level = level;
     this.type = type;
-    this.svg = svg;
+    this.svg= svg;
   }
 
-  levelUp() {
+  levelUp () {
     this.level = this.level + 1;
   }
 }

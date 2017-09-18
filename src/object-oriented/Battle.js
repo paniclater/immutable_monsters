@@ -5,23 +5,23 @@ export default class Battle {
   }
 
   winner() {
-    let sum1;
-    let sum2;
-    let winner;
-    let loser;
+    let sumLevel1 = 0;
+    let sumLevel2 = 0;
 
-    for (let i = 0; i < this.trainer1.collection.monsters.length; i++) {
-      sum1 += this.trainer1.collection.monsters[i];
+    for(let i = 0; i < this.trainer1.collection.monsters.length; i++) {
+      sumLevel1 = sumLevel1 + this.trainer1.collection.monsters[i].level;
     }
 
-    for (let i = 0; i < this.trainer2.collection.monsters.length; i++) {
-      sum2 += this.trainer2.collection.monsters[i];
+    for(let i =0; i < this.trainer2.collection.monsters.length; i++) {
+      sumLevel2 = sumLevel2 + this.trainer2.collection.monsters[i].level;
     }
 
-    if (sum1 === sum2) return 'It Is A Tie, When There Are No Winners Everyone Loses.';
+    if (sumLevel1 === sumLevel2) return 'It is a tie, when there are no WINNERS there are only LOSERS';
 
-    if (sum1 > sum2) return `${this.trainer1.name} RULEZ ${this.trainer2.name} DRULES`;
+    return (sumLevel1 > sumLevel2) ?
+      `${this.trainer1.name} is the HERO, ${this.trainer2.name} is the ZERO` :
+      `${this.trainer2.name} is the HERO, ${this.trainer1.name} is the ZERO`;
 
-    return `${this.trainer2.name} IS THE HERO ${this.trainer1.name} IS THE ZERO`;
+
   }
 }

@@ -1,8 +1,20 @@
 # Catching Cute Monsters
-# Immutable Patterns from Functional Programming
+## With Immutable Patterns from Functional Programming
+Things we're going to do.
+1. Demonstrate difficulty of managing collections with classes and mutations [x]
+1. Talk about what the words mutability and immutability mean in this context []
+1. Demonstrate immutable operations with single values
+ - primitives
+ - objects
+1. Demonstrate immutable operations on lists of values
+ - primitives
+ - objects
+1. Demonstrate operating on single values with list operations!
+1. Introduce functional, immutable data structures
+ - ImmutableJS
+ - Immutable Extensions
 
 What The Diddly Do I Mean By Immutable?
---
 
 1. Simple Mutable Patterns, or **Frugality: Using What You've Got**
 TODO: find a gif!
