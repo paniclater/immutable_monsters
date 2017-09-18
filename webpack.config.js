@@ -2,8 +2,10 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  entry: './src/object-oriented/index.js',
   //entry: './src/object-oriented-end/index.js',
-  entry: './src/immutable-end/index.js',
+  //entry: './src/immutable/index.js',
+  //entry: './src/immutable-end/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
