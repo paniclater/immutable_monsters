@@ -5,7 +5,7 @@ import '../style.css';
 import Monster from './Monster'
 import Trainer from './Trainer'
 import Battle from './Battle'
-import render from '../render'
+import render from '../dom/render'
 
 //render('Catching Cute Monsters', 'With Object Oriented Patterns', []);
 
