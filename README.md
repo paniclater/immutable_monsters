@@ -1,8 +1,8 @@
 # Catching Cute Monsters
 ## With Immutable Patterns from Functional Programming
 Things we're going to do.
-1. Demonstrate difficulty of managing collections with classes and mutations
-1. Talk about what the words mutability and immutability mean in this context
+1. Demonstrate difficulty of managing collections with classes and mutations [x]
+1. Talk about what the words mutability and immutability mean in this context []
 1. Demonstrate immutable operations with single values
  - primitives
  - objects
