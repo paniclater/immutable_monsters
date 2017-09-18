@@ -1,4 +1,7 @@
 import starterMonsters from './monsterData';
 
-export default () => ({
+export default (name, alignment, collection = [...starterMonsters]) => ({
+  name,
+  alignment,
+  collection
 });
