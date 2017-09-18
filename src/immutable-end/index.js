@@ -1,16 +1,15 @@
 //styles
-import './reset.css';
-import './style.css';
+import '../reset.css';
+import '../style.css';
 //modules
-import { battle, levelUp, trainer } from './trainer.js';
-import render from './render';
+import battle from './battle';
+import levelUp from './levelUp';
+import trainer from './trainer'
+import render from '../dom/render';
 
 
 const me = trainer('Ryan', 'Good');
 const drake = trainer('Drake', 'Evil');
-
-me.collection = me.collection.map(levelUp(2));
-drake.collection = drake.collection.map(m => Object.assign({}, m, { level: 5 }));
 
 render('Catching Cute Monsters', 'With Immutable Patterns')
 render('', 'RYAN\'S COLLECTION', me.collection)

@@ -1,9 +1,9 @@
 
 //svgs
-import legs from './svg/legs.svg';
-import floaty from './svg/floaty.svg';
-import pointy from './svg/pointy.svg';
-import eyes from './svg/eyes.svg';
+import legs from '../svg/legs.svg';
+import floaty from '../svg/floaty.svg';
+import pointy from '../svg/pointy.svg';
+import eyes from '../svg/eyes.svg';
 
 export default [
   { name: 'tippety', level: 1, type: 'spooketer',  svg: legs },

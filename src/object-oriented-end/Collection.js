@@ -13,4 +13,7 @@ const starterMonsters = [
 ];
 
 export default class Collection {
+  constructor(monsters = starterMonsters) {
+    this.monsters = monsters;
+  }
 }
