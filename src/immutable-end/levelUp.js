@@ -1,1 +1,1 @@
-export default times => monster => ({ ...monster, level: monster.level + times });
+export default (times, monster) => ({ ...monster, level: monster.level + times });
