@@ -8,4 +8,3 @@ import Battle from './Battle'
 import render from '../dom/render'
 
 render('Catching Cute Monsters', 'With Object Oriented Patterns', []);
-
